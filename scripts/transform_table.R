@@ -7,5 +7,6 @@ df <- data.frame(
   z = sample(letters, 10, replace = TRUE) # Random letters for column "z"
 )
 
-dfnew <- dplyr::mutate(df, J="K", I="i", E="Erfan", O="Bernice")
+dfnew <- dplyr::mutate(df, J="K", I="i", E="Erfan", O="Bernice", 
+                       XXX="hello", YYY="whywhywhy")
 write.csv(dfnew, "./data/tabular/newtable.csv")
