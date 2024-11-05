@@ -8,5 +8,5 @@ df <- data.frame(
 )
 
 dfnew <- dplyr::mutate(df, J="K", I="i", E="Erfan", O="Bernice", 
-                       XXX="hello", YYY="whywhywhy")
+                       XXX="hello", YYY="whywhywhy", J="JinHui")
 write.csv(dfnew, "./data/tabular/newtable.csv")
